@@ -1,19 +1,55 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background-color: black;
+    height: 1080px;
+}
 .hero{
-	display:flex;
-	align-items:center;
-}
-.hero>div {
     display: flex;
-    flex-direction: column;
+	height: 355px;
+	width: 1100px;
+	background-color: white;
+	margin-top: 150px;
+}
+img{
+	object-fit: fill;
+    height: 356px;
+    cursor: zoom-in;
+    margin: auto;
+    -webkit-user-select: none;
+    background-color: 300ms;
+}
+.text{
+    justify-content: center;
     align-items: center;
-    padding: 40px;
-/*     text-align: center; */
+    margin-left: 80px;
+    margin-top: 80px;
 }
-#btn{
-	padding: 15px;
-    background: red;
-    color: white;
-    border: none;
-	border-radius:10px;
+.lec{
+    display: list-item;
+    padding: 50px;
 }
+.par{
+    color: rgb(78, 82, 85);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button{
+	background-color: red;
+   
+	
+	text-align: center;
+    margin-left: 155px;
+	height: 20px;
+	width: 150px;
+}
+.button>a{
+	text-decoration: none;
+	color: white;
+}
+
+	 
